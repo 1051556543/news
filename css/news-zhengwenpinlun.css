@@ -1,0 +1,69 @@
+/*
+* @Author: pc
+* @Date:   2017-08-04 11:54:27
+* @Last Modified by:   pc
+* @Last Modified time: 2017-08-06 10:09:22
+*/
+@import url('base.css');
+@import url('../iconfont/iconfont.css');
+header{
+	width: 100%;
+	height: 0.51rem;
+	border-bottom: 0.01rem solid #bbbfc0;
+	padding: 0.19rem 0.13rem 0 0.13rem;
+	display: flex;
+	justify-content: space-between;
+}
+.header-left,.header-right{
+	width: 0.09rem;
+	height: 0.14rem;
+	font-size: 0.14rem;
+	color: #8f8f8f;
+	line-height: 0.14rem;
+}
+.header-right{
+	width: 0.20rem;
+}
+/* 图片部分开始 */
+.img{
+	width: 100%;
+	height: 1.55rem;
+    border-bottom: 0.01rem solid #82878d;
+}
+.img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 图片部分结束 */
+/* 发表评论开始 */
+.fabiaopinglun{
+	width: 100%;
+	height: 4.158rem;
+	background-color: #eff0f5;
+	padding: 0.14rem 0.13rem 0 0.13rem;
+}
+.pinlun{
+	width: 100%;
+	height: 0.38rem;
+	display: flex;
+	justify-content: space-between;
+}
+.cancel{
+	width: 0.09rem;
+	height: 0.09rem;
+}
+.fabiao{
+	font-size: 0.12rem;
+	color: #494949;
+}
+.liuyankuang{
+	width: 3.29rem;
+	height: 2.00rem;
+	border-radius: 0.10rem;
+	resize: none;
+}
+.liuyankuang:focus{
+	outline: none;
+}
+/* 发表评论结束 */

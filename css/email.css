@@ -1,0 +1,125 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-05 14:54:11
+* @Last Modified by:   pc
+* @Last Modified time: 2017-08-06 17:29:21
+*/
+@import url('../iconfont/iconfont.css');
+@import url('base.css');
+/* 背景开始 */
+.content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.content img{
+	display: block;
+	width: 100%;
+	height: 6.21rem;
+}
+.content-below{
+	width: 100%;
+	height: 6.21rem;
+	background: rgba(20, 20, 20, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/* 提示框开始 */
+.cancel{
+	display: block;
+	color: #b3b4b5;
+	position: absolute;
+	top: 0.32rem;
+	left: 0.18rem;
+}
+.number{
+	display: block;
+	width: 2.84rem;
+	height: 0.58rem;
+	border: none;
+	background: rgba(255, 255, 255, 0);
+	border-bottom: 0.02rem solid #fff;
+	position: absolute;
+	top: 0.56rem;
+	left: 0.3rem;
+	color: #fff;
+	display: flex;
+}
+.number div{
+	width: 0.3rem;
+	height: 100%;
+	color: #fff;
+	font-size: 0.14rem;
+	line-height: 0.58rem;
+}
+.number input{
+	display: block;
+	width: 2.54rem;
+	height: 100%;
+	border: none;
+	background: rgba(255, 255, 255, 0);
+	padding-left: 0.1rem;
+}
+.password{
+	display: block;
+	width: 2.84rem;
+	height: 0.58rem;
+	border: none;
+	background: rgba(255, 255, 255, 0);
+	border-bottom: 0.02rem solid #87858a;
+	position: absolute;
+	top: 1.14rem;
+	left: 0.3rem;
+	display: flex;
+}
+.password div{
+	width: 0.3rem;
+	height: 100%;
+	color: #b3b4b5;
+	font-size: 0.14rem;
+	line-height: 0.58rem;
+}
+.password input{
+	display: block;
+	width: 2.54rem;
+	height: 100%;
+	border: none;
+	background: rgba(255, 255, 255, 0);
+	padding-left: 0.1rem;
+}
+input:focus{
+	outline: none;
+}
+.context a:nth-child(6){
+	font-size: 0.12rem;
+	color: #b3b4b5;
+	position: absolute;
+	top: 1.88rem;
+	left: 2.61rem;
+}
+/* 提示框结束 */
+.tishier{
+	width: 100%;
+	height: 0.66rem;
+	background: rgba(152, 20, 77, 0.8);
+	position: absolute;
+	top: 5.55rem;
+	left: 0rem;
+	font-size: 0.16rem;
+	color: #fff;
+	line-height: 0.66rem;
+	text-align: center;
+}
+.forget{
+	display: block;
+	width: 1.0rem;
+	height: 0.50rem;
+	/* background-color: red; */
+	font-size: 0.12rem;
+	color: #b3b4b5;
+	position: absolute;
+	top: 1.8rem;
+	right: 0;
+}
+/* 背景结束 */

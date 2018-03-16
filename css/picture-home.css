@@ -1,0 +1,205 @@
+/*
+* @Author: pc
+* @Date:   2017-08-03 17:01:27
+* @Last Modified by:   pc
+* @Last Modified time: 2017-08-04 06:43:19
+*/
+@import url('base.css');
+@import url('../iconfont/iconfont.css');
+/* 头部开始 */
+header{
+	width: 100%;
+	height:0.51rem;
+	background-color: #fff; 
+	border:0.01rem solid #e8e8ea;
+	display: flex;
+	justify-content: space-between;
+}
+.header-left,.header-right{
+	display: block;
+	width: 0.3rem;
+	height: 100%;
+	/* background-color: yellowgreen; */
+	padding: 0.18rem 0 0 0.13rem;
+}
+.header-right{
+	padding: 0.18rem 0.13rem 0 0;
+}
+.user,.search{
+	width: 0.16rem;
+	height: 0.16rem;
+}
+.header-cen{
+	width: 1.25rem;
+	height: 100%;
+	/* background-color: blue; */
+}
+.hc-left,.hc-right{
+	float: left;
+    display: block;
+	width: 0.52rem;
+	height: 0.5rem;
+	border-bottom: 0.01rem solid #f25952;
+	font-size: 0.14rem;
+	color: #f25952;
+	padding: 0.19rem 0 0 0.11rem;
+}
+.hc-cen{
+	float: left;
+	width: 0.01rem;
+	height: 0.18rem;
+	background-color: #f0f0f0;
+	margin: 0.17rem 0.06rem 0;
+}
+.header-cen .hc-left{
+	border-bottom: none;
+	color: #626262;
+}
+/* 头部结束 */
+/* 导航栏开始 */
+nav{
+	width:100%;
+	height: 0.43rem;
+	background-color: pink;
+	border: 0.01rem solid #e8e8ea;
+	border-top: none;
+	display: flex;
+	position: relative;
+}
+.nav-left{
+	width: 100%;
+	height: 100%;
+	border-right: 0.01rem solid #e8e8ea;
+	background-color: #f5f4fa;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.12rem;	
+}
+.nav-left li a{
+    display: block;
+    font-size: 0.16rem;
+    color: #a4a4a4;
+    line-height: 0.43rem;
+}
+
+.nav-right{
+	width: 0.43rem;
+	height: 100%;
+	background-color: #fff;
+	border-left: 0.01rem solid #e8e8ea;
+	display: block;
+	position: absolute;
+    right: 0;
+    top: 0;
+    color: #bdbdbd;
+    font-size: 0.07rem;
+    text-align: center;
+    line-height: 0.39rem;
+}
+/* 导航栏结束 */
+/* banner开始 */
+#banner{
+	width: 100%;
+	height: 3.00rem;
+}
+.banner{
+	width: 100%;
+	height: 3.00rem;
+	display: block;
+}
+.banner img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.lunbo{
+	width: 0.4rem;
+	height: 0.04rem;
+	/* background-color: red; */
+	position: absolute;
+	bottom: 0.17rem;
+	right: 0.13rem;
+	display: flex;
+	justify-content: space-between;
+}
+.lunbo a{
+	width: 0.04rem;
+	height: 0.04rem;
+	background-color: #cccccc;
+	border-radius: 50%;
+}
+.lunbo a:nth-child(2){
+	background-color:black;
+}
+
+/* banner结束 */
+/* content开始 */
+.content{
+	width: 100%;
+	height: 1.0rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    border: 0.01rem solid #e8e8ea;
+}
+
+.con-left{
+	float: left;
+	width: 100%;
+	height: 1.02rem;
+	position: relative;
+}
+.cl-top,.cl-bottom{
+	width: 100%;
+	height: 0.11rem;
+	font-size: 0.11rem;
+	color: #c5c5c5;
+	padding: 0.12rem 0 0.20rem 0;
+	line-height: 0.11rem;
+}
+.cl-bottom{
+	padding: 0.12rem 0 0.10rem 0;
+}
+.cl-cen{
+	display: block;
+	width: 100%;
+	height: 0.20rem;
+	font-size: 0.14rem;
+	color: #000;
+	line-height: 0.20rem;
+}
+.con-right{
+    float: left;
+	width: 0.78rem;
+	height: 0.78rem;
+	margin-top: 0.12rem;
+	border: 0.01rem solid #f0f0f0;
+}
+.con-right img{
+	display: block;
+	width: 0.78rem;
+	height: 0.78rem;
+}
+.decoration{
+	width: 0.7rem;
+	height: 0.12rem;
+	/* background-color: red; */
+	position: absolute;
+	top: 0.12rem;
+	right: 0.0rem;
+	line-height: 0.12rem;
+	display: flex;
+	justify-content: space-between;
+}
+.icon{
+	width: 0.12rem;
+    height:0.12rem;
+    font-size: 0.12rem;
+    color: #c0c0c0;
+}
+.miaoshu{
+	width: 0.5rem;
+	height: 100%;
+	font-size: 0.12rem;
+	color: #c0c0c0;
+}
+/* content结束 */

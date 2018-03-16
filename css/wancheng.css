@@ -1,0 +1,75 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-06 10:41:59
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-06 10:56:36
+*/
+@import url('../iconfont/iconfont.css');
+@import url('base.css');
+/* 背景开始 */
+.context{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.context img{
+	display: block;
+	width: 100%;
+	height: 6.21rem;
+}
+.context-below{
+	width: 100%;
+	height: 6.21rem;
+	background: rgba(20, 20, 20, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/* 提示框开始 */
+.cancel{
+	display: block;
+	color: #b3b4b5;
+	position: absolute;
+	top: 0.32rem;
+	left: 0.18rem;
+}
+.open{
+	width: 0.84rem;
+	height: 0.84rem;
+	border-radius: 50%;
+	border: 0.02rem solid #b3b4b5;
+	position: absolute;
+	top: 1.08rem;
+	left: 1.18rem;
+}
+.open img{
+	display: block;
+	width: 0.84rem;
+	height: 0.84rem;
+	border-radius: 50%;
+	border: 0.02rem solid #b3b4b5;
+}
+.xuanxiang{
+	width: 1.25rem;
+	height: 0.15rem;
+	position: absolute;
+	top: 2.1rem;
+	left: 1rem;
+	font-size: 0.14rem;
+	color: #b3b4b5;
+	display: flex;
+	justify-content: space-between;
+}
+
+.tishier{
+	width: 100%;
+	height: 0.66rem;
+	background: rgba(152, 20, 77, 0.8);
+	position: absolute;
+	top: 5.55rem;
+	left: 0rem;
+	font-size: 0.16rem;
+	color: #fff;
+	line-height: 0.66rem;
+	text-align: center;
+}

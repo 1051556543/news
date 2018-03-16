@@ -1,0 +1,33 @@
+/*
+* @Author: pc
+* @Date:   2017-08-04 11:54:27
+* @Last Modified by:   pc
+* @Last Modified time: 2017-08-08 07:17:56
+*/
+@import url('base.css');
+@import url('../iconfont/iconfont.css');
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+    visibility: hidden;
+}
+.box1{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	position: absolute;
+	left: ;
+	right: ;
+	top: ;
+	bottom: ;
+	margin: ;
+	box-shadow: 0 0 10px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: ;
+	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	align-items: baseline;
+	align-content: space-between;
+}
